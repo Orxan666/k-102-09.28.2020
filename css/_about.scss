@@ -1,0 +1,47 @@
+#done{
+    background-image: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2014/12/image-from-rawpixel-id-51918-min.jpg);
+padding: 15em 0;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
+position: relative;
+z-index: 1;
+  .overlay{
+      position: absolute;
+      top: 0;
+      z-index: -1;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: 0.6;
+  }
+.done-text{
+    text-align: center;
+    h1{
+        font-weight: bold;
+        font-size:4em;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+   
+}
+}
+#vision{
+    padding: 6rem 0;
+    .all{
+        width: 60%;
+        margin: auto;
+    }
+    .vision-text{
+        text-align: center;
+        ul{
+            li{
+                font-size:2rem;
+                a{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
